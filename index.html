@@ -1,160 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TiendaOnline</title>
-    <link rel="stylesheet" href="estilos.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;700&display=swap" rel="stylesheet">
-</head>
-
-
-
-<body>
-  
-<!-- INICIO "HEADER" -->
-    <header class="header">
-        <img src="img/logo.png" alt="logo" class="logo">
-        <nav class="listaNavMenu">
-            <ul class="header__lista"> 
-                <li> <a href="#tienda" class="menu">Tienda</a> </li>
-                <li> <a href="#sobreNuestrosProductos" class="menu"> Sobre nuestros productos </a> </li>
-                <li> <a href="#sobreNosotros" class="menu"> Sobre nosotros </a></li>
-                <li> <a href="#contacto" class="menu"> Contacto </a> </li>
-            </ul>
-        </nav>
-    </header>
-<!-- FIN "HEADER" -->
-
-
-<!-- INICIO "HOME" -->
-    <section id="home" class="padding">
-        
-        <h2>HOME</h2>
-
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae debitis neque maxime eligendi similique dolorum doloremque tenetur, natus repellendus minima excepturi perspiciatis, tempora et in quo eius harum mollitia vero! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas suscipit fuga et excepturi doloribus corrupti neque fugiat? Soluta, quo provident. Earum temporibus voluptate cum non expedita cumque reprehenderit iure animi? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci consequuntur cupiditate at et, quaerat ipsam, accusantium unde aut quod repellendus sequi nam omnis! Placeat iusto quis ipsa ex quo facilis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam fuga, corrupti molestiae, ducimus recusandae exercitationem porro magni fugit delectus voluptatum necessitatibus dolore sed quisquam pariatur ipsum laudantium possimus rerum reiciendis.
-        </p>
-
-    </section>
-<!-- FIN "HOME" -->
-
-
-<!-- INICIO "TIENDA" -->
-    <section id="tienda" class="padding"> 
-
-        <h2>TIENDA</h2>
-
-<!-- Productos tienda -->
-        <section class="productosTienda">
-
-            <div class="producto">
-                <a href="remeraAzul.html"> 
-                    <img src="img/ropa1.jfif" alt="remera azul">
-                    <h3>REMERA AZUL</h3>
-                </a> 
-            </div>
-
-            <div class="producto">
-                <a href="remeraNegra.html">
-                    <img src="img/ropa2.jfif" alt="remera negra">
-                    <h3>REMERA NEGRA</h3>
-                </a>
-                
-            </div>
-
-            <div class="producto">
-                <a href="remeraRoja.html">
-                    <img src="img/ropa3.jfif" alt="remera roja">
-                    <h3>REMERA ROJA</h3>
-                </a>
-                
-            </div>
-
-        </section>
-      
-      
-    </section>
-<!-- FIN "TIENDA" -->
-
-
-<!-- INICIO "SOBRE NUESTROS PRODUCTOS" -->
-<section id="sobreNuestrosProductos" class="padding"> 
-    <h2>SOBRE NUESTROS PRODUCTOS</h2>
-
-    <div>
-       <article><img src="img/sobre nuestros productos img.jpg" alt="gente trabajando"> </article>
-       <article><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas sint est fuga fugiat laborum obcaecati, natus molestiae placeat alias voluptatibus velit, quos veritatis quisquam vitae, voluptates illum saepe odio earum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, tempora optio vitae eveniet sint, itaque soluta voluptate temporibus dicta, distinctio ratione accusantium iusto recusandae illo ipsam nisi deserunt magnam expedita. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate perferendis esse, magnam enim veniam, sapiente inventore ut voluptas ad ex ullam explicabo adipisci exercitationem quia. Quod fugit ipsam libero error?ç</p></article> 
-       
-    </div>
+    <link rel="stylesheet" href="estilos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="js/bootstrap.min.js" />
     
-</section>   
-      
-<!-- FIN "SOBRE NUESTROS PRODUCTOS" -->
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js">
+    </script><script type='text/javascript' src='script.js'></script>
+  </head>
+
+  <body>
+    <!-- INICIO "HEADER" -->
+    <header class="header">
+      <img src="img/logo.png" alt="logo" class="logo" />
+      <nav class="listaNavMenu">
+        <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link active bg-dark p-2 m-2" aria-current="page" href="#tienda">Tienda</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active bg-dark p-2 m-2" aria-current="page" href="#sobreNuestrosProductos">Sobre Nuestros Productos</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active bg-dark p-2 m-2" aria-current="page" href="#sobreNosotros">Sobre Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active bg-dark p-2 m-2" aria-current="page" href="#contacto">Contacto</a>
+        </li>
+      </ul>
+      </nav>
+    </header>
+    <!-- FIN "HEADER" -->
+
+    
 
 
-<!-- INICIO "SOBRE NOSOTROS" -->
-    <section id="sobreNosotros" class="padding"> 
-        <h2>SOBRE NOSOTROS</h2>
 
-        <div>
-           <article><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas sint est fuga fugiat laborum obcaecati, natus molestiae placeat alias voluptatibus velit, quos veritatis quisquam vitae, voluptates illum saepe odio earum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, tempora optio vitae eveniet sint, itaque soluta voluptate temporibus dicta, distinctio ratione accusantium iusto recusandae illo ipsam nisi deserunt magnam expedita. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate perferendis esse, magnam enim veniam, sapiente inventore ut voluptas ad ex ullam explicabo adipisci exercitationem quia. Quod fugit ipsam libero error?ç</p></article> 
-           <article><img src="img/grupo-personas-trabajando.jpg" alt="gente trabajando"> </article>
+    <!--INICIO CAROUSEL-->
+
+    <!--NO ME FUNCIONA :(-->
+
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/foto1.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="./img/foto2.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="./img/foto3.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- FIN CAROUSEL-->
+
+    <!-- INICIO "TIENDA" -->
+    <section id="tienda" class="padding">
+      <h2>TIENDA</h2>
+
+      <!-- Productos tienda -->
+      <section class="productosTienda">
+        <div class="producto">
+          <a href="remeraAzul.html">
+            <img src="img/ropa1.jfif" alt="remera azul" />
+            <h3>REMERA AZUL</h3>
+          </a>
         </div>
 
-    </section>   
-<!-- FIN "SOBRE NOSOTROS" -->
+        <div class="producto">
+          <a href="remeraNegra.html">
+            <img src="img/ropa2.jfif" alt="remera negra" />
+            <h3>REMERA NEGRA</h3>
+          </a>
+        </div>
 
+        <div class="producto">
+          <a href="remeraRoja.html">
+            <img src="img/ropa3.jfif" alt="remera roja" />
+            <h3>REMERA ROJA</h3>
+          </a>
+        </div>
+      </section>
+    </section>
+    <!-- FIN "TIENDA" -->
 
-<!-- INICIO "CONTACTO" -->
-<footer id="footer">
-    <section id="contacto" class="padding"> 
-    <h2>CONTACTO</h2> 
-    <form action="">
-        <fieldset>
+    <!-- INICIO "SOBRE NUESTROS PRODUCTOS" -->
+    <section id="sobreNuestrosProductos" class="padding">
+      <h2>SOBRE NUESTROS PRODUCTOS</h2>
 
-             <legend>Formulario de contacto</legend>
-             <label for="Nombre"></label>
-             <input type="text" name="name" placeholder="Ingresa tu nombre" required>
-             <br>
-
-             <label for="Apellido"></label>
-             <input type="text" name="apellido" placeholder="Ingresa tu apellido" required>
-             <br>
-
-             <select name="Selecciona tu país">
-                 <option value="value1"> Argentina </option>
-                 <option value="value2"> Uruguay </option>
-                 <option value="value3"> chile </option>
-                 <option value="Value4" selected> Selecciona tu país </option>
-             </select>
-             <br> 
-
-             <label for="consulta"> Escribi tus consultas</label>
-             <br>
-             <textarea name="consulta" id="" cols="30" rows="5" maxlength="250"> </textarea>
-
-             <div> ¿Que aspectos le gustaron del servicio?</div>
-             <input type="checkbox" name="cbox1"> La atencion rápida
-             <input type="checkbox" name="cbox2"> La calidad del producto
-             <input type="checkbox" name="cbox3"> La facilidad de adquirir los productos
-             <br>
-
-             <input type="submit" value="Enviar consulta">
-             <input type="reset" value="Limpiar Formulario">
-             <input type="button" value="No hace nada">
-
-         </fieldset>
-</form>
+      <div>
+        <article>
+          <img
+            src="img/sobre nuestros productos img.jpg"
+            alt="gente trabajando"
+          />
+        </article>
+        <article>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+            sint est fuga fugiat laborum obcaecati, natus molestiae placeat
+            alias voluptatibus velit, quos veritatis quisquam vitae, voluptates
+            illum saepe odio earum. Lorem ipsum dolor sit, amet consectetur
+            adipisicing elit. Earum, tempora optio vitae eveniet sint, itaque
+            soluta voluptate temporibus dicta, distinctio ratione accusantium
+            iusto recusandae illo ipsam nisi deserunt magnam expedita. Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+            perferendis esse, magnam enim veniam, sapiente inventore ut voluptas
+            ad ex ullam explicabo adipisci exercitationem quia. Quod fugit ipsam
+            libero error?ç
+          </p>
+        </article>
+      </div>
     </section>
 
-   
-</footer>
-<!-- FIN "CONTACTO" -->
+    <!-- FIN "SOBRE NUESTROS PRODUCTOS" -->
 
+    <!-- INICIO "SOBRE NOSOTROS" -->
+    <section id="sobreNosotros" class="padding">
+      <h2>SOBRE NOSOTROS</h2>
 
+      <div>
+        <article>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+            sint est fuga fugiat laborum obcaecati, natus molestiae placeat
+            alias voluptatibus velit, quos veritatis quisquam vitae, voluptates
+            illum saepe odio earum. Lorem ipsum dolor sit, amet consectetur
+            adipisicing elit. Earum, tempora optio vitae eveniet sint, itaque
+            soluta voluptate temporibus dicta, distinctio ratione accusantium
+            iusto recusandae illo ipsam nisi deserunt magnam expedita. Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+            perferendis esse, magnam enim veniam, sapiente inventore ut voluptas
+            ad ex ullam explicabo adipisci exercitationem quia. Quod fugit ipsam
+            libero error?ç
+          </p>
+        </article>
+        <article>
+          <img src="img/grupo-personas-trabajando.jpg" alt="gente trabajando" />
+        </article>
+      </div>
+    </section>
+    <!-- FIN "SOBRE NOSOTROS" -->
 
-</body>
+    <!-- INICIO "CONTACTO" -->
+    <footer id="footer">
+      <section id="contacto" class="padding">
+        <h2>CONTACTO</h2>
+        <form action="">
+          <fieldset>
+            <legend>Formulario de contacto</legend>
+            <label for="Nombre"></label>
+            <input
+              type="text"
+              name="name"
+              placeholder="Ingresa tu nombre"
+              required
+            />
+            <br />
+
+            <label for="Apellido"></label>
+            <input
+              type="text"
+              name="apellido"
+              placeholder="Ingresa tu apellido"
+              required
+            />
+            <br />
+
+            <select name="Selecciona tu país">
+              <option value="value1">Argentina</option>
+              <option value="value2">Uruguay</option>
+              <option value="value3">chile</option>
+              <option value="Value4" selected>Selecciona tu país</option>
+            </select>
+            <br />
+
+            <label for="consulta"> Escribi tus consultas</label>
+            <br />
+            <textarea name="consulta" id="" cols="30" rows="5" maxlength="250">
+            </textarea>
+
+            <div>¿Que aspectos le gustaron del servicio?</div>
+            <input type="checkbox" name="cbox1" /> La atencion rápida
+            <input type="checkbox" name="cbox2" /> La calidad del producto
+            <input type="checkbox" name="cbox3" /> La facilidad de adquirir los
+            productos
+            <br />
+
+            <input type="submit" value="Enviar consulta" />
+            <input type="reset" value="Limpiar Formulario" />
+            <input type="button" value="No hace nada" />
+          </fieldset>
+        </form>
+      </section>
+    </footer>
+    <!-- FIN "CONTACTO" -->
+    <script>
+        $(function(){
+            // Activate Carousel
+            $("#myCarousel").carousel();
+        });
+    </script>
+  </body>
+  
+
 </html>
