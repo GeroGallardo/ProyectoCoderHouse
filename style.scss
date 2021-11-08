@@ -1,0 +1,21 @@
+@import "header";
+@import "tienda";
+@import "sobreNuestrosProductos";
+@import "sobreNosotros";
+@import "footer";
+
+/*---PARA TODAS LAS SECCIONES---*/
+.padding {padding-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 3rem;
+    padding-bottom: 2rem;}
+
+h2 {font-family: 'Roboto Mono', monospace; text-align: center; font-size:xx-large; line-height: 5rem; color: #e7e8e9; font-weight: bolder;}
+
+body{
+    background-color:#372438
+    ;}
+
+    
+*{padding: 0px;
+    margin: 0px;}

@@ -14,43 +14,60 @@
     />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="js/bootstrap.min.js" />
-    
+
     <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
-    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js">
-    </script><script type='text/javascript' src='script.js'></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
     <!-- INICIO "HEADER" -->
     <header class="header">
-      <img src="img/logo.png" alt="logo" class="logo" />
-      <nav class="listaNavMenu">
+      <div class="header__logo">
+        <img src="img/logo.png" alt="logo" class="header__div__logo" />
+      </div>
+
+      <nav class="header__menu">
         <ul class="nav nav-pills">
-        <li class="nav-item">
-          <a class="nav-link active bg-dark p-2 m-2" aria-current="page" href="#tienda">Tienda</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link active bg-dark p-2 m-2" aria-current="page" href="#sobreNuestrosProductos">Sobre Nuestros Productos</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link active bg-dark p-2 m-2" aria-current="page" href="#sobreNosotros">Sobre Nosotros</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active bg-dark p-2 m-2" aria-current="page" href="#contacto">Contacto</a>
-        </li>
-      </ul>
+          <li class="nav-item">
+            <a
+              class="nav-link active bg-dark p-2 m-2"
+              aria-current="page"
+              href="#tienda"
+              >Tienda</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link active bg-dark p-2 m-2"
+              aria-current="page"
+              href="#sobreNuestrosProductos"
+              >Sobre Nuestros Productos</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link active bg-dark p-2 m-2"
+              aria-current="page"
+              href="#sobreNosotros"
+              >Sobre Nosotros</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link active bg-dark p-2 m-2"
+              aria-current="page"
+              href="#contacto"
+              >Contacto</a
+            >
+          </li>
+        </ul>
       </nav>
     </header>
     <!-- FIN "HEADER" -->
 
-    
-
-
-
     <!--INICIO CAROUSEL-->
-
-    <!--NO ME FUNCIONA :(-->
-
     <div
       id="carouselExampleIndicators"
       class="carousel slide"
@@ -115,22 +132,22 @@
       <h2>TIENDA</h2>
 
       <!-- Productos tienda -->
-      <section class="productosTienda">
-        <div class="producto">
+      <section class="tienda__productos">
+        <div class="tienda__producto">
           <a href="remeraAzul.html">
             <img src="img/ropa1.jfif" alt="remera azul" />
             <h3>REMERA AZUL</h3>
           </a>
         </div>
 
-        <div class="producto">
+        <div class="tienda__producto">
           <a href="remeraNegra.html">
             <img src="img/ropa2.jfif" alt="remera negra" />
             <h3>REMERA NEGRA</h3>
           </a>
         </div>
 
-        <div class="producto">
+        <div class="tienda__producto">
           <a href="remeraRoja.html">
             <img src="img/ropa3.jfif" alt="remera roja" />
             <h3>REMERA ROJA</h3>
@@ -252,10 +269,15 @@
     </footer>
     <!-- FIN "CONTACTO" -->
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-   
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
   </body>
-  
-
 </html>

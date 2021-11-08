@@ -1,0 +1,204 @@
+/*---INICIO "HEADER"---*/
+/*...HOLA PROFE, NO PUEDO CENTRAR LAS PALABRAS DEL MENU SIN CENTRAR TAMBIEN EL LOGO, EN CLASES PLANTEO LA DUDA :) ---*/
+.header {
+  color: #43344b;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 2rem;
+  background-size: auto;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #43344b;
+}
+
+.header__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.header__div__logo {
+  width: 3rem;
+  height: 3rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.header__lista li {
+  list-style: none;
+  display: inline-block;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+  text-align: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin: 1rem;
+  border-left: 0.2rem solid #DCDCDC;
+  border-right: 0.2rem solid #DCDCDC;
+  text-align: center;
+}
+
+.header__lista a {
+  text-decoration: none;
+  color: #9b6698;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+}
+
+.header img {
+  -webkit-transform: scale(2, 2);
+          transform: scale(2, 2);
+}
+
+.header a {
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s;
+}
+
+.header__lista a:hover {
+  color: #720000;
+}
+
+/*---FIN "HEADER"---*/
+/*---INICIO TIENDA---*/
+.tienda__productos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tienda__producto {
+  padding: 2rem;
+  margin: 2rem;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+  border-style: solid;
+  background-color: white;
+}
+
+.tienda__producto a {
+  text-decoration: none;
+  color: black;
+}
+
+.tienda__producto a:hover {
+  color: grey;
+}
+
+.tienda__producto a {
+  text-decoration: none;
+  color: black;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+}
+
+/*---FIN TIENDA---*/
+/*---INICIO "SOBRE NUESTROS PRODUCTOS"---*/
+#sobreNuestrosProductos div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-top: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#sobreNuestrosProductos div img {
+  height: 15rem;
+  padding: 3rem;
+}
+
+/*---FIN "SOBRE NUESTROS PRODUCTOS"---*/
+/*---INICIO "SOBRE NOSOTROS"---*/
+#sobreNosotros div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-top: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#sobreNosotros div img {
+  height: 15rem;
+  padding: 3rem;
+}
+
+/*---FIN "SOBRE NOSOTROS"---*/
+/*---PARA TODAS LAS SECCIONES---*/
+.padding {
+  padding-top: 3rem;
+  padding-left: 2rem;
+  padding-right: 3rem;
+  padding-bottom: 2rem;
+}
+
+h2 {
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  font-size: xx-large;
+  line-height: 5rem;
+  color: #e7e8e9;
+  font-weight: bolder;
+}
+
+section {
+  background-color: #9b6698;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+body {
+  background-color: #372438;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+/*# sourceMappingURL=style.css.map */

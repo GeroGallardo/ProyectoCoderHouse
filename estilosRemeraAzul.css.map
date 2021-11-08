@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,EAAE,CAAA;EACE,OAAO,EAAE,YAAY;EACrB,UAAU,EAAE,MAAM;CACrB;;AAID,AAAA,GAAG,CAAA;EACC,MAAM,EAAE,SAAU;EAClB,YAAY,EAAE,KAAK;EACnB,KAAK,EAAE,KAAQ;CAClB",
+    "sources": [
+        "estilosRemeraAzul.scss"
+    ],
+    "names": [],
+    "file": "estilosRemeraAzul.css"
+}

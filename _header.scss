@@ -1,0 +1,67 @@
+/*---INICIO "HEADER"---*/
+
+/*...HOLA PROFE, NO PUEDO CENTRAR LAS PALABRAS DEL MENU SIN CENTRAR TAMBIEN EL LOGO, EN CLASES PLANTEO LA DUDA :) ---*/
+
+.header 
+{color: #43344b;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding: 2rem; 
+background-size:auto;
+text-align: center; 
+background-repeat:no-repeat; 
+background-size: cover;
+display: flex;
+align-items: center;
+justify-items: center;
+align-content: center;
+align-items: center;
+justify-content: center;
+background-color: #43344b
+;}
+
+section{background-color:  #9b6698
+    ;
+        margin-left: 10rem;
+        margin-right: 10rem;
+        margin-top: 5rem;
+        margin-bottom: 5rem;}
+
+.header__logo{
+display: flex; 
+align-items:flex-start;
+align-content: flex-start;
+align-self: flex-start;
+}
+
+.header__div__logo
+{width: 3rem;
+height: 3rem;
+margin-left: 3rem;
+margin-right: 3rem;
+}
+
+.header__lista li 
+{list-style: none; 
+display: inline-block; 
+font-family:'Roboto Mono', monospace; 
+font-weight: bold;
+text-align: center;
+align-content: center;
+margin: 1rem;
+border-left: 0.2rem solid #DCDCDC;
+border-right: 0.2rem solid #DCDCDC;
+text-align: center;
+}
+.header__lista a
+{text-decoration: none;
+color: #9b6698
+;
+align-content: center;
+text-align: center;}
+
+.header img {transform: scale(2,2)}
+.header a {transition: background-color .3s;}
+.header__lista a:hover {color: #720000
+    ;}
+
+/*---FIN "HEADER"---*/
