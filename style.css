@@ -1,7 +1,6 @@
 /*---INICIO "HEADER"---*/
 /*...HOLA PROFE, NO PUEDO CENTRAR LAS PALABRAS DEL MENU SIN CENTRAR TAMBIEN EL LOGO, EN CLASES PLANTEO LA DUDA :) ---*/
 .header {
-  color: #43344b;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   padding: 2rem;
   background-size: 100%;
@@ -21,7 +20,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #43344b;
+  background-color: #151515;
 }
 
 .header__logo {
@@ -97,7 +96,7 @@
 }
 
 section {
-  background-color: #9b6698;
+  background-color: #265496;
   margin-left: 10rem;
   margin-right: 10rem;
   margin-top: 5rem;
@@ -144,7 +143,7 @@ section {
 }
 
 section {
-  background-color: #9b6698;
+  background-color: #265496;
   margin-left: 10rem;
   margin-right: 10rem;
   margin-top: 5rem;
@@ -154,6 +153,7 @@ section {
 .div__p {
   font-family: "Roboto Mono", monospace;
   font-size: large;
+  color: white;
 }
 
 #sobreNuestrosProductos div img {
@@ -180,7 +180,7 @@ section {
 }
 
 section {
-  background-color: #9b6698;
+  background-color: #265496;
   margin-left: 10rem;
   margin-right: 10rem;
   margin-top: 5rem;
@@ -194,7 +194,7 @@ section {
 
 /*---FIN "SOBRE NOSOTROS"---*/
 section {
-  background-color: #9b6698;
+  background-color: #265496;
   margin-left: 10rem;
   margin-right: 10rem;
   margin-top: 5rem;
@@ -249,8 +249,7 @@ h1 {
 }
 
 body {
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(30%, #a263a5), color-stop(70%, #4e3250));
-  background: linear-gradient(0deg, #a263a5 30%, #4e3250 70%);
+  background-color: #222222;
   font-family: font-family "Roboto Mono", monospace;
 }
 
