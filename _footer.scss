@@ -1,6 +1,28 @@
-section{background-color:  #9b6698
-    ;
-        margin-left: 10rem;
-        margin-right: 10rem;
-        margin-top: 5rem;
-        margin-bottom: 5rem;}
+section {
+  background-color: #9b6698;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+footer form {
+  text-align: center;
+}
+
+footer form input {
+  border-radius: 20px;
+  padding: 1rem;
+  border: solid 1px;
+}
+
+footer form textarea {
+  border-radius: 20px;
+  border: solid 1px;
+}
+
+footer form select {
+  border-radius: 20px;
+  padding: 1rem;
+  border: solid 1px;
+}

@@ -1,12 +1,12 @@
-h1{
-    display: inline-block;
-    text-align: center;
+h1 {
+  display: inline-block;
+  text-align: center;
 }
 
 $widht: 500px;
 
-div{
-    border: black 5px ;
-    border-style: solid;
-    width: $widht/2 ;
+div {
+  border: black 5px;
+  border-style: solid;
+  width: $widht/2;
 }

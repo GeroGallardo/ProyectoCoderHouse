@@ -5,17 +5,88 @@
 @import "footer";
 
 /*---PARA TODAS LAS SECCIONES---*/
-.padding {padding-top: 3rem;
-    padding-left: 2rem;
-    padding-right: 3rem;
-    padding-bottom: 2rem;}
 
-h2 {font-family: 'Roboto Mono', monospace; text-align: center; font-size:xx-large; line-height: 5rem; color: #e7e8e9; font-weight: bolder;}
+* {
+  padding: 0px;
+  margin: 0px;
+}
 
-body{
-    background-color:#372438
-    ;}
+.padding {
+  padding-top: 3rem;
+  padding-left: 2rem;
+  padding-right: 3rem;
+  padding-bottom: 2rem;
+}
 
-    
-*{padding: 0px;
-    margin: 0px;}
+h2 {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  font-size: xx-large;
+  line-height: 5rem;
+  color: #e7e8e9;
+  font-weight: bolder;
+}
+
+h1{
+  display: none;
+}
+
+body {
+  background: linear-gradient(0deg, rgb(162, 99, 165) 30%, rgb(78, 50, 80) 70%);
+  font-family: font-family "Roboto Mono", monospace;
+}
+
+@media (max-width: 600px) {
+  body {
+    background-color: #9b6698;
+    padding: 0rem;
+    margin: 0rem;
+  }
+
+  #sobreNosotros div {
+    display: block;
+    padding: 0rem;
+    margin: 0rem;
+  }
+
+  #sobreNuestrosProductos div {
+    display: block;
+  }
+
+  h2 {
+    text-align: center;
+    align-content: center;
+  }
+
+  .div__p {
+    margin: 5rem;
+    padding: 0rem;
+    width: 400px, 500px;
+    text-align: center;
+  }
+
+  section {
+    background-color: #9b6698;
+    margin: 0rem;
+    padding: 0rem;
+  }
+
+  .tienda__productos {
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+
+  header nav ul {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+  }
+
+  .header__logo {
+    align-content: center;
+    align-self: center;
+  }
+}

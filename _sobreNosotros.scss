@@ -1,19 +1,24 @@
 /*---INICIO "SOBRE NOSOTROS"---*/
-#sobreNosotros div{
-    display: flex;
-    flex: 1;
-    margin-top: 20px; 
-    align-items: center;
-    justify-content: center;}
+#sobreNosotros div {
+  display: flex;
+  flex: 1;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
 
-section{background-color:  #9b6698
-        ;
-            margin-left: 10rem;
-            margin-right: 10rem;
-            margin-top: 5rem;
-            margin-bottom: 5rem;}
+section {
+  background-color: #9b6698;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+
 
 #sobreNosotros div img {
-    height: 15rem;
-    padding: 3rem;}
+  height: 15rem;
+  padding: 3rem;
+}
 /*---FIN "SOBRE NOSOTROS"---*/

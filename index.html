@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Tienda online de ropa" />
+    <meta name="keywords" content="remeras, ropa, negocio, compras" />
     <title>TiendaOnline</title>
     <link rel="stylesheet" href="estilos.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -22,8 +24,11 @@
   </head>
 
   <body>
+
+     <h1>Tienda online de ropa</h1>
+
     <!-- INICIO "HEADER" -->
-    <header class="header">
+    <header class="header" title="header">
       <div class="header__logo">
         <img src="img/logo.png" alt="logo" class="header__div__logo" />
       </div>
@@ -32,7 +37,7 @@
         <ul class="nav nav-pills">
           <li class="nav-item">
             <a
-              class="nav-link active bg-dark p-2 m-2"
+              class="nav-link bg-dark active p-2 m-2"
               aria-current="page"
               href="#tienda"
               >Tienda</a
@@ -40,7 +45,7 @@
           </li>
           <li class="nav-item">
             <a
-              class="nav-link active bg-dark p-2 m-2"
+              class="nav-link active bg-dark p-2 m-2 nav__item"
               aria-current="page"
               href="#sobreNuestrosProductos"
               >Sobre Nuestros Productos</a
@@ -128,7 +133,7 @@
     <!-- FIN CAROUSEL-->
 
     <!-- INICIO "TIENDA" -->
-    <section id="tienda" class="padding">
+    <section id="tienda" class="padding" title="tienda">
       <h2>TIENDA</h2>
 
       <!-- Productos tienda -->
@@ -158,7 +163,7 @@
     <!-- FIN "TIENDA" -->
 
     <!-- INICIO "SOBRE NUESTROS PRODUCTOS" -->
-    <section id="sobreNuestrosProductos" class="padding">
+    <section id="sobreNuestrosProductos" class="padding" title="sobre nuestros productos">
       <h2>SOBRE NUESTROS PRODUCTOS</h2>
 
       <div>
@@ -169,18 +174,11 @@
           />
         </article>
         <article>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-            sint est fuga fugiat laborum obcaecati, natus molestiae placeat
-            alias voluptatibus velit, quos veritatis quisquam vitae, voluptates
-            illum saepe odio earum. Lorem ipsum dolor sit, amet consectetur
-            adipisicing elit. Earum, tempora optio vitae eveniet sint, itaque
-            soluta voluptate temporibus dicta, distinctio ratione accusantium
-            iusto recusandae illo ipsam nisi deserunt magnam expedita. Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
-            perferendis esse, magnam enim veniam, sapiente inventore ut voluptas
-            ad ex ullam explicabo adipisci exercitationem quia. Quod fugit ipsam
-            libero error?ç
+          <p class="div__p">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+            asperiores fuga nostrum. Voluptatum facere repudiandae molestias
+            nulla quasi animi. Tempora incidunt maxime corporis quas adipisci
+            totam animi consectetur in porro.
           </p>
         </article>
       </div>
@@ -189,23 +187,16 @@
     <!-- FIN "SOBRE NUESTROS PRODUCTOS" -->
 
     <!-- INICIO "SOBRE NOSOTROS" -->
-    <section id="sobreNosotros" class="padding">
+    <section id="sobreNosotros" class="padding" title="sobre nosotros">
       <h2>SOBRE NOSOTROS</h2>
 
       <div>
         <article>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-            sint est fuga fugiat laborum obcaecati, natus molestiae placeat
-            alias voluptatibus velit, quos veritatis quisquam vitae, voluptates
-            illum saepe odio earum. Lorem ipsum dolor sit, amet consectetur
-            adipisicing elit. Earum, tempora optio vitae eveniet sint, itaque
-            soluta voluptate temporibus dicta, distinctio ratione accusantium
-            iusto recusandae illo ipsam nisi deserunt magnam expedita. Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
-            perferendis esse, magnam enim veniam, sapiente inventore ut voluptas
-            ad ex ullam explicabo adipisci exercitationem quia. Quod fugit ipsam
-            libero error?ç
+          <p class="div__p">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+            quisquam inventore in ea? Quae ex reiciendis ipsum dicta doloremque
+            tempora eum, maxime iste eos voluptatem facilis earum expedita
+            fugiat aperiam?
           </p>
         </article>
         <article>
@@ -217,7 +208,7 @@
 
     <!-- INICIO "CONTACTO" -->
     <footer id="footer">
-      <section id="contacto" class="padding">
+      <section id="contacto" class="padding contacto__diseño" title="contacto">
         <h2>CONTACTO</h2>
         <form action="">
           <fieldset>
@@ -262,7 +253,6 @@
 
             <input type="submit" value="Enviar consulta" />
             <input type="reset" value="Limpiar Formulario" />
-            <input type="button" value="No hace nada" />
           </fieldset>
         </form>
       </section>
