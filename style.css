@@ -275,7 +275,7 @@ body {
     text-align: center;
   }
   section {
-    background-color: #9b6698;
+    background-color: #222222;
     margin: 0rem;
     padding: 0rem;
   }
@@ -305,6 +305,12 @@ body {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
+  }
+  .form__label__color {
+    color: white;
+  }
+  .form__input__color {
+    color: white;
   }
 }
 /*# sourceMappingURL=style.css.map */
