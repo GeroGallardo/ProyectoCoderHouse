@@ -1,5 +1,4 @@
 /*---INICIO "HEADER"---*/
-/*...HOLA PROFE, NO PUEDO CENTRAR LAS PALABRAS DEL MENU SIN CENTRAR TAMBIEN EL LOGO, EN CLASES PLANTEO LA DUDA :) ---*/
 .header {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   padding: 2rem;
@@ -133,6 +132,18 @@ section {
 
 .tienda__producto a:hover {
   color: #265496;
+}
+
+.menu__item__animacion:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.menu__item__animacion {
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
 }
 
 /*---INICIO "SOBRE NUESTROS PRODUCTOS"---*/
