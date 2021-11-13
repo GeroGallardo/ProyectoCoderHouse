@@ -1,0 +1,192 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.padding {
+  padding-top: 3rem;
+  padding-left: 2rem;
+  padding-right: 3rem;
+  padding-bottom: 2rem;
+}
+
+h2 {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  font-size: xx-large;
+  line-height: 5rem;
+  color: #e7e8e9;
+  font-weight: bolder;
+}
+
+h1 {
+  display: none;
+}
+
+body {
+  background-color: #222222;
+  font-family: font-family "Roboto Mono", monospace;
+}
+
+
+
+
+.header {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 2rem;
+  background-size: 100%;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #151515;
+}
+
+.header__logo {
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  align-self: flex-start;
+}
+
+.header__div__logo {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.header__lista li {
+  list-style: none;
+  display: inline-block;
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+  text-align: center;
+  align-content: center;
+  margin: 1rem;
+  border-left: 0.2rem solid #dcdcdc;
+  border-right: 0.2rem solid #dcdcdc;
+  text-align: center;
+}
+
+.header__lista a {
+  text-decoration: none;
+  color: #9b6698;
+  align-content: center;
+  text-align: center;
+}
+
+.header img {
+  transform: scale(2, 2);
+}
+.header a {
+  transition: background-color 0.3s;
+}
+
+
+
+
+
+section {
+  background-color: #265496;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+footer form {
+  text-align: center;
+}
+
+footer form input {
+  border-radius: 20px;
+  padding: 1rem;
+  border: solid 1px;
+}
+
+footer form textarea {
+  border-radius: 20px;
+  border: solid 1px;
+}
+
+footer form select {
+  border-radius: 20px;
+  padding: 1rem;
+  border: solid 1px;
+}
+
+@media (max-width: 600px) {
+  body {
+    background-color: #222222;
+    padding: 0rem;
+    margin: 0rem;
+  }
+
+  #sobreNosotros div {
+    display: block;
+    padding: 0rem;
+    margin: 0rem;
+  }
+
+  #sobreNuestrosProductos div {
+    display: block;
+  }
+
+  h2 {
+    text-align: center;
+    align-content: center;
+  }
+
+  .div__p {
+    margin: 5rem;
+    padding: 0rem;
+    width: 400px, 500px;
+    text-align: center;
+  }
+
+  section {
+    background-color: #222222;
+    margin: 0rem;
+    padding: 0rem;
+  }
+
+  .tienda__productos {
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+
+  header nav ul {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+  }
+
+  .tienda__producto__imagen {
+    width: 100%;
+    height: auto;
+  }
+
+  .header__logo {
+    align-content: center;
+    align-self: center;
+  }
+
+  .form__label__color {
+    color: white;
+  }
+
+  .form__input__color {
+    color: white;
+  }
+}

@@ -31,40 +31,48 @@
       <div class="header__logo">
         <img src="img/logo.png" alt="logo" class="header__div__logo" />
       </div>
-
       <nav class="header__menu">
         <ul class="nav nav-pills">
           <li class="nav-item">
-            <a
-              class="nav-link bg-dark active p-2 m-2"
-              aria-current="page"
-              href="#tienda"
-              >Tienda</a
-            >
+            <div class="menu__item__animacion">
+              <a
+                class="nav-link bg-dark active p-2 m-2"
+                aria-current="page"
+                href="#tienda"
+                >Tienda</a
+              >
+            </div>
           </li>
           <li class="nav-item">
-            <a
-              class="nav-link active bg-dark p-2 m-2 nav__item"
-              aria-current="page"
-              href="#sobreNuestrosProductos"
-              >Sobre Nuestros Productos</a
-            >
+            <div class="menu__item__animacion">
+              <a
+                class="nav-link active bg-dark p-2 m-2 nav__item"
+                aria-current="page"
+                href="#sobreNuestrosProductos"
+                >Sobre Nuestros Productos</a
+              >
+            </div>
           </li>
           <li class="nav-item">
-            <a
-              class="nav-link active bg-dark p-2 m-2"
-              aria-current="page"
-              href="#sobreNosotros"
-              >Sobre Nosotros</a
-            >
+            <div class="menu__item__animacion">
+              <a
+                class="nav-link active bg-dark p-2 m-2"
+                aria-current="page"
+                href="#sobreNosotros"
+                >Sobre Nosotros</a
+              >
+            </div>
           </li>
+
           <li class="nav-item">
-            <a
-              class="nav-link active bg-dark p-2 m-2"
-              aria-current="page"
-              href="#contacto"
-              >Contacto</a
-            >
+            <div class="menu__item__animacion">
+              <a
+                class="nav-link active bg-dark p-2 m-2"
+                aria-current="page"
+                href="#contacto"
+                >Contacto</a
+              >
+            </div>
           </li>
         </ul>
       </nav>
@@ -139,21 +147,33 @@
       <section class="tienda__productos">
         <div class="tienda__producto">
           <a href="remeraAzul.html">
-            <img src="img/ropa1.jfif" alt="remera azul" class="tienda__producto__imagen"/>
+            <img
+              src="img/ropa1.jfif"
+              alt="remera azul"
+              class="tienda__producto__imagen"
+            />
             <h3>REMERA AZUL</h3>
           </a>
         </div>
 
         <div class="tienda__producto">
           <a href="remeraNegra.html">
-            <img src="img/ropa2.jfif" alt="remera negra" class="tienda__producto__imagen"/>
+            <img
+              src="img/ropa2.jfif"
+              alt="remera negra"
+              class="tienda__producto__imagen"
+            />
             <h3>REMERA NEGRA</h3>
           </a>
         </div>
 
         <div class="tienda__producto">
           <a href="remeraRoja.html">
-            <img src="img/ropa3.jfif" alt="remera roja" class="tienda__producto__imagen"/>
+            <img
+              src="img/ropa3.jfif"
+              alt="remera roja"
+              class="tienda__producto__imagen"
+            />
             <h3>REMERA ROJA</h3>
           </a>
         </div>
@@ -212,10 +232,10 @@
     <!-- INICIO "CONTACTO" -->
     <footer id="footer">
       <section id="contacto" class="padding contacto__diseño" title="contacto">
-        <h2>CONTACTO</h2>
+        <h2 class="form__input__color">CONTACTO</h2>
         <form action="">
           <fieldset>
-            <legend>Formulario de contacto</legend>
+            <legend class="form__input__color">Formulario de contacto</legend>
             <label for="Nombre"></label>
             <input
               type="text"
@@ -242,16 +262,26 @@
             </select>
             <br />
 
-            <label for="consulta" class="form__label__color"> Escribi tus consultas</label>
+            <label for="consulta" class="form__label__color">
+              Escribi tus consultas</label
+            >
             <br />
             <textarea name="consulta" id="" cols="30" rows="5" maxlength="250">
             </textarea>
 
-            <div> <p class="form__input__color">¿Que aspectos le gustaron del servicio?</p> </div>
-            <input type="checkbox" name="cbox1"/> <p class="form__input__color">La atencion rápida</p> 
-            <input type="checkbox" name="cbox2"/> <p class="form__input__color">La calidad del producto</p> 
-            <input type="checkbox" name="cbox3"/> <p class="form__input__color">La facilidad de adquirir los
-            productos</p> 
+            <div>
+              <p class="form__input__color">
+                ¿Que aspectos le gustaron del servicio?
+              </p>
+            </div>
+            <input type="checkbox" name="cbox1" />
+            <p class="form__input__color">La atencion rápida</p>
+            <input type="checkbox" name="cbox2" />
+            <p class="form__input__color">La calidad del producto</p>
+            <input type="checkbox" name="cbox3" />
+            <p class="form__input__color">
+              La facilidad de adquirir los productos
+            </p>
             <br />
 
             <input type="submit" value="Enviar consulta" />

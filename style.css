@@ -77,6 +77,18 @@
   transition: background-color 0.3s;
 }
 
+.menu__item__animacion:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.menu__item__animacion {
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+}
+
 /*---FIN "HEADER"---*/
 /*---INICIO TIENDA---*/
 .tienda__productos {
@@ -97,6 +109,7 @@ section {
   margin-right: 10rem;
   margin-top: 5rem;
   margin-bottom: 5rem;
+  border-radius: 20px;
 }
 
 .tienda__producto {
@@ -107,6 +120,7 @@ section {
   text-align: center;
   border-style: solid;
   background-color: white;
+  border-radius: 20px;
 }
 
 .tienda__producto a {
@@ -144,6 +158,7 @@ section {
   margin-right: 10rem;
   margin-top: 5rem;
   margin-bottom: 5rem;
+  border-radius: 20px;
 }
 
 .div__p {
@@ -181,6 +196,7 @@ section {
   margin-right: 10rem;
   margin-top: 5rem;
   margin-bottom: 5rem;
+  border-radius: 20px;
 }
 
 #sobreNosotros div img {
@@ -195,6 +211,7 @@ section {
   margin-right: 10rem;
   margin-top: 5rem;
   margin-bottom: 5rem;
+  border-radius: 20px;
 }
 
 footer form {

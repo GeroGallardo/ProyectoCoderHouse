@@ -61,4 +61,14 @@
   transition: background-color 0.3s;
 }
 
+.menu__item__animacion:hover{
+    transform: scale(1.5); 
+}
+
+.menu__item__animacion{
+  transition: transform .2s; 
+}
+
+
+
 /*---FIN "HEADER"---*/
