@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*---INICIO "HEADER"---*/
 .header {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -82,10 +83,10 @@
 }
 
 .menu__item__animacion {
-  -webkit-transition: -webkit-transform .2s;
-  transition: -webkit-transform .2s;
-  transition: transform .2s;
-  transition: transform .2s, -webkit-transform .2s;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
 }
 
 /*---FIN "HEADER"---*/
@@ -140,12 +141,13 @@ section {
 }
 
 .menu__item__animacion {
-  -webkit-transition: -webkit-transform .2s;
-  transition: -webkit-transform .2s;
-  transition: transform .2s;
-  transition: transform .2s, -webkit-transform .2s;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
 }
 
+/*---FIN TEINDA---*/
 /*---INICIO "SOBRE NUESTROS PRODUCTOS"---*/
 #sobreNuestrosProductos div {
   display: -webkit-box;
@@ -215,6 +217,13 @@ section {
   padding: 3rem;
 }
 
+.sobreNosotros__ul {
+  list-style: none;
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+}
+
 /*---FIN "SOBRE NOSOTROS"---*/
 section {
   background-color: #265496;
@@ -244,6 +253,31 @@ footer form select {
   border-radius: 20px;
   padding: 1rem;
   border: solid 1px;
+}
+
+.footer__contacto__tamaño {
+  height: 5rem;
+  width: 15rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-align: center;
+  display: inline-block;
+}
+
+.footer__contacto__boton {
+  width: 10rem;
+  height: 4rem;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 /*---PARA TODAS LAS SECCIONES---*/
@@ -277,6 +311,7 @@ body {
   font-family: font-family "Roboto Mono", monospace;
 }
 
+/*RESPONSIVE*/
 @media (max-width: 600px) {
   body {
     background-color: #222222;

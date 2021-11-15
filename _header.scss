@@ -1,7 +1,4 @@
 /*---INICIO "HEADER"---*/
-
-/*...HOLA PROFE, NO PUEDO CENTRAR LAS PALABRAS DEL MENU SIN CENTRAR TAMBIEN EL LOGO, EN CLASES PLANTEO LA DUDA :) ---*/
-
 .header {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   padding: 2rem;
@@ -57,16 +54,16 @@
 .header img {
   transform: scale(2, 2);
 }
+
 .header a {
   transition: background-color 0.3s;
 }
 
-.menu__item__animacion:hover{
-    transform: scale(1.1); 
+.menu__item__animacion:hover {
+  transform: scale(1.1);
 }
 
-.menu__item__animacion{
-  transition: transform .2s; 
+.menu__item__animacion {
+  transition: transform 0.2s;
 }
-
 /*---FIN "HEADER"---*/

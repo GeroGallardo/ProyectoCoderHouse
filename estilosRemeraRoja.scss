@@ -1,3 +1,4 @@
+/*---GENERAL---*/
 * {
   padding: 0px;
   margin: 0px;
@@ -23,14 +24,21 @@ h1 {
   display: none;
 }
 
-body {
+#body {
   background-color: #222222;
   font-family: font-family "Roboto Mono", monospace;
 }
 
+section {
+  background-color: #265496;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  border-radius: 20px;
+}
 
-
-
+/*---HEADER*/
 .header {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   padding: 2rem;
@@ -89,19 +97,41 @@ body {
 .header a {
   transition: background-color 0.3s;
 }
+/*---FIN HEADER---*/
 
-
-
-
-
-section {
-  background-color: #265496;
-  margin-left: 10rem;
-  margin-right: 10rem;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+/*---PRODUCTO---*/
+.div__titulo {
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
 }
 
+.remeraRoja__div {
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.tienda__producto {
+  padding: 2rem;
+  margin: 2rem;
+  align-content: center;
+  text-align: center;
+  border-style: solid;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.tienda__producto a {
+  text-decoration: none;
+  color: black;
+  align-content: center;
+  text-align: center;
+}
+/*---FIN PRODUCTO---*/
+
+/*---INICIO CONTACTO---*/
 footer form {
   text-align: center;
 }
@@ -123,33 +153,35 @@ footer form select {
   border: solid 1px;
 }
 
+.footer__contacto__tamaño {
+  height: 5rem;
+  width: 15rem;
+  align-items: center;
+  align-self: center;
+  text-align: center;
+  display: inline-block;
+}
+
+.footer__contacto__boton {
+  width: 10rem;
+  height: 4rem;
+  text-align: center;
+  align-items: center;
+  align-self: center;
+}
+/*---FIN CONTACTO---*/
+
 @media (max-width: 600px) {
   body {
     background-color: #222222;
     padding: 0rem;
     margin: 0rem;
-  }
-
-  #sobreNosotros div {
-    display: block;
-    padding: 0rem;
-    margin: 0rem;
-  }
-
-  #sobreNuestrosProductos div {
-    display: block;
+    background-color: #222222;
   }
 
   h2 {
     text-align: center;
     align-content: center;
-  }
-
-  .div__p {
-    margin: 5rem;
-    padding: 0rem;
-    width: 400px, 500px;
-    text-align: center;
   }
 
   section {

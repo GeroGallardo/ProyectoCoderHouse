@@ -63,7 +63,6 @@
               >
             </div>
           </li>
-
           <li class="nav-item">
             <div class="menu__item__animacion">
               <a
@@ -198,10 +197,12 @@
         </article>
         <article>
           <p class="div__p">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-            asperiores fuga nostrum. Voluptatum facere repudiandae molestias
-            nulla quasi animi. Tempora incidunt maxime corporis quas adipisci
-            totam animi consectetur in porro.
+            Nuestra Política de Bienestar Animal incluye estándares éticos en el
+            uso de productos de origen animal conforme a las “Cinco Libertades”
+            del bienestar animal para el trato ético y responsable de los
+            animales. Además, trabajamos con programas de seguimiento que nos
+            ayudan a garantizar la calidad y seguridad de nuestras prendas y a
+            reducir su impacto ambiental.
           </p>
         </article>
       </div>
@@ -216,16 +217,24 @@
       <div>
         <article>
           <p class="div__p">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
-            quisquam inventore in ea? Quae ex reiciendis ipsum dicta doloremque
-            tempora eum, maxime iste eos voluptatem facilis earum expedita
-            fugiat aperiam?
+            Tenemos 4 pilares que nos guían en cada una de las decisiones que tomamos:
+            <br>
+            <ul class="sobreNosotros__ul div__p">
+              <li>Nos motiva nuestro fin social de inclusión.</li>
+              <br>
+              <li>Nos comprometemos a usar la mejor tecnología para crear el mejor producto.</li>
+              <br>
+              <li>Compromiso con la excelencia de nuestro trabajo.</li>
+              <br>
+              <li>Confianza en el equipo que somos.</li>
+            </ul>
           </p>
         </article>
         <article>
           <img src="img/grupo-personas-trabajando.jpg" alt="gente trabajando" />
         </article>
       </div>
+      
     </section>
     <!-- FIN "SOBRE NOSOTROS" -->
 
@@ -236,13 +245,16 @@
         <form action="">
           <fieldset>
             <legend class="form__input__color">Formulario de contacto</legend>
+
             <label for="Nombre"></label>
             <input
               type="text"
               name="name"
               placeholder="Ingresa tu nombre"
               required
+              class="footer__contacto__tamaño"
             />
+
             <br />
 
             <label for="Apellido"></label>
@@ -251,22 +263,33 @@
               name="apellido"
               placeholder="Ingresa tu apellido"
               required
+              class="footer__contacto__tamaño"
             />
+
             <br />
 
-            <select name="Selecciona tu país">
+            <select name="Selecciona tu país" class="footer__contacto__tamaño">
               <option value="value1">Argentina</option>
               <option value="value2">Uruguay</option>
               <option value="value3">chile</option>
               <option value="Value4" selected>Selecciona tu país</option>
             </select>
+
             <br />
 
             <label for="consulta" class="form__label__color">
               Escribi tus consultas</label
             >
             <br />
-            <textarea name="consulta" id="" cols="30" rows="5" maxlength="250">
+
+            <textarea
+              name="consulta"
+              id=""
+              cols="30"
+              rows="5"
+              maxlength="250"
+              class="footer__contacto__tamaño"
+            >
             </textarea>
 
             <div>
@@ -284,8 +307,16 @@
             </p>
             <br />
 
-            <input type="submit" value="Enviar consulta" />
-            <input type="reset" value="Limpiar Formulario" />
+            <input
+              type="submit"
+              value="Enviar consulta"
+              class="footer__contacto__boton"
+            />
+            <input
+              type="reset"
+              value="Limpiar Formulario"
+              class="footer__contacto__boton"
+            />
           </fieldset>
         </form>
       </section>

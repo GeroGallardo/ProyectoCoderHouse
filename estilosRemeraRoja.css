@@ -1,3 +1,5 @@
+@charset "UTF-8";
+/*---GENERAL---*/
 * {
   padding: 0px;
   margin: 0px;
@@ -23,11 +25,21 @@ h1 {
   display: none;
 }
 
-body {
+#body {
   background-color: #222222;
   font-family: font-family "Roboto Mono", monospace;
 }
 
+section {
+  background-color: #265496;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  border-radius: 20px;
+}
+
+/*---HEADER*/
 .header {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   padding: 2rem;
@@ -105,14 +117,46 @@ body {
   transition: background-color 0.3s;
 }
 
-section {
-  background-color: #265496;
-  margin-left: 10rem;
-  margin-right: 10rem;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+/*---FIN HEADER---*/
+/*---PRODUCTO---*/
+.div__titulo {
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
 }
 
+.remeraRoja__div {
+  background-color: white;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.tienda__producto {
+  padding: 2rem;
+  margin: 2rem;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+  border-style: solid;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.tienda__producto a {
+  text-decoration: none;
+  color: black;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+}
+
+/*---FIN PRODUCTO---*/
+/*---INICIO CONTACTO---*/
 footer form {
   text-align: center;
 }
@@ -134,30 +178,43 @@ footer form select {
   border: solid 1px;
 }
 
+.footer__contacto__tamaño {
+  height: 5rem;
+  width: 15rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-align: center;
+  display: inline-block;
+}
+
+.footer__contacto__boton {
+  width: 10rem;
+  height: 4rem;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+/*---FIN CONTACTO---*/
 @media (max-width: 600px) {
   body {
     background-color: #222222;
     padding: 0rem;
     margin: 0rem;
-  }
-  #sobreNosotros div {
-    display: block;
-    padding: 0rem;
-    margin: 0rem;
-  }
-  #sobreNuestrosProductos div {
-    display: block;
+    background-color: #222222;
   }
   h2 {
     text-align: center;
     -ms-flex-line-pack: center;
         align-content: center;
-  }
-  .div__p {
-    margin: 5rem;
-    padding: 0rem;
-    width: 400px, 500px;
-    text-align: center;
   }
   section {
     background-color: #222222;
